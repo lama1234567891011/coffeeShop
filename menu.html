@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coffee House - Menu</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Our Coffee Menu</h1>
+
+    <p>Choose your favorite coffee!</p>
+
+    <h2>Our Pages</h2>
+
+ 
+<nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+
+    <h2>Our Drinks</h2>
+	
+<img src="images/latte.webp" alt="Latte Coffee" width="350">
+
+
+    <table border="1">
+        <tr>
+            <th>Drink</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Latte</td>
+            <td>18 SAR</td>
+        </tr>
+
+        <tr>
+            <td>Cappuccino</td>
+            <td>20 SAR</td>
+        </tr>
+
+        <tr>
+            <td>Espresso</td>
+            <td>12 SAR</td>
+        </tr>
+
+        <tr>
+            <td>Americano</td>
+            <td>15 SAR</td>
+        </tr>
+    </table>
+
+    <h2>Our Popular Drinks</h2>
+
+    <ol>
+        <li>Latte</li>
+        <li>Cappuccino</li>
+        <li>Espresso</li>
+    </ol>
+
+    <p>Thank you for choosing Coffee House!</p>
+	
+<h2>Order Your Latte</h2>
+
+<p>Latte Price: 18 SAR</p>
+
+<label>Quantity:</label>
+<input type="number" id="quantity" value="1">
+
+<button onclick="calculatePrice()">
+    Calculate Total
+</button>
+
+<p id="total"></p>
+
+<script src="script.js"></script>
+
+<div class="footer">
+    <p>© 2026 Coffee House</p>
+    <p>Fresh Coffee, Happy Moments!</p>
+</div>
+
+
+
+</body>
+</html>
